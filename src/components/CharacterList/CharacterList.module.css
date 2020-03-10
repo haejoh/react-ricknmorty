@@ -1,0 +1,49 @@
+.CharacterList {
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 1000px;
+    overflow-x: hidden;
+    /* background-image: url('./assets/bg.jpg'); */
+    background-color: #b2f9fc;
+    z-index: -10;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+    width: 300px;
+    height: 340px;
+    padding: 0px;
+    border: 10px;
+    margin: 10px auto;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
+  
+.card:hover {
+    box-shadow: 0 0px 64px 0 rgb(255, 255, 255), 
+          inset 0 0px 64px 0 rgb(255, 255, 255);
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    border-radius: 5px;
+}
+
+.card img {
+    z-index: -1;
+    opacity: 80%;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+.container {
+    padding-top: 100px;
+    padding: 2px 20px;
+}
+
+h5 {
+    text-align: center;
+}
